@@ -1,4 +1,6 @@
 function searchMahasiswa() {
+  pencarian = prompt("Masukkan nama mahasiswa yang dicari: ");
+
   let arrMahasiswa = [
     "alfito",
     "budi",
@@ -31,9 +33,12 @@ function searchMahasiswa() {
   const hasilSearch = [];
 
   for (let index = 0; index < arrMahasiswa.length; index++) {
-    if (arrMahasiswa[index].charAt(0) == "f") {
+    if (arrMahasiswa[index].charAt(0) == pencarian.charAt(0)) {
       hasilSearch.push(arrMahasiswa[index]);
       break;
+    } else {
+      console.log("Tidak ada nama mahasiswa yang dimaksud");
+      brake;
     }
   }
   console.log(hasilSearch);
