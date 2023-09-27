@@ -128,7 +128,7 @@
 // =======================================
 // while
 
-let angka = 1;
+// let angka = 1;
 // while (angka <= 100) {
 //   console.log(angka);
 //   angka += 10;
@@ -176,12 +176,14 @@ let angka = 1;
 
 // =======================================
 
-const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for (let i = 0; i < data.length; i++) {
-  if (data[i] == 5) {
-    console.log(data[i], " adalah angka 5");
-    continue;
-  }
-  console.log(data[i]);
-}
+// for (let i = 0; i < data.length; i++) {
+//   if (data[i] == 5) {
+//     console.log(data[i], " adalah angka 5");
+//     continue;
+//   }
+//   console.log(data[i]);
+// }
+
+// =======================================
