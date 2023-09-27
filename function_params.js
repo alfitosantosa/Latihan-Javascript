@@ -101,8 +101,26 @@
 
 // callback and short syntax
 
-let luasLinkaran = (r) => {
-  3.14 * r * r;
-};
+// let luasLinkaran = (r) => 3.14 * r * r;
+// console.log(luasLinkaran(10));
 
-console.log((luasLinkaran = input));
+// =======================================
+
+// function myDisplayer(some) {
+//   document.getElementById("demo").innerHTML = some;
+// }
+
+// async function myFunction() {
+//   return "Hello assalamualaikum";
+// }
+
+// myFunction().then(
+//   function (value) {
+//     myDisplayer(value);
+//   },
+//   function (error) {
+//     myDisplayer(error);
+//   }
+// );
+
+// =======================================
